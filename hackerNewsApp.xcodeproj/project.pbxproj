@@ -11,6 +11,10 @@
 		5216AE8C253926AD00741F33 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5216AE8B253926AD00741F33 /* ContentView.swift */; };
 		5216AE8E253926B200741F33 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5216AE8D253926B200741F33 /* Assets.xcassets */; };
 		5216AE91253926B200741F33 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5216AE90253926B200741F33 /* Preview Assets.xcassets */; };
+		5257B3C2253D189800EE7DCE /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5257B3C1253D189700EE7DCE /* NetworkManager.swift */; };
+		5257B3C6253D1D4700EE7DCE /* PostData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5257B3C5253D1D4700EE7DCE /* PostData.swift */; };
+		5257B3CA25410F2600EE7DCE /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5257B3C925410F2600EE7DCE /* DetailView.swift */; };
+		5257B3CE25411E8500EE7DCE /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5257B3CD25411E8500EE7DCE /* WebView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +24,10 @@
 		5216AE8D253926B200741F33 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5216AE90253926B200741F33 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		5216AE92253926B200741F33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5257B3C1253D189700EE7DCE /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		5257B3C5253D1D4700EE7DCE /* PostData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostData.swift; sourceTree = "<group>"; };
+		5257B3C925410F2600EE7DCE /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		5257B3CD25411E8500EE7DCE /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,8 +60,9 @@
 		5216AE88253926AD00741F33 /* hackerNewsApp */ = {
 			isa = PBXGroup;
 			children = (
+				5257B3C825410EED00EE7DCE /* View */,
+				5257B3C0253D184A00EE7DCE /* Models */,
 				5216AE89253926AD00741F33 /* hackerNewsAppApp.swift */,
-				5216AE8B253926AD00741F33 /* ContentView.swift */,
 				5216AE8D253926B200741F33 /* Assets.xcassets */,
 				5216AE92253926B200741F33 /* Info.plist */,
 				5216AE8F253926B200741F33 /* Preview Content */,
@@ -67,6 +76,25 @@
 				5216AE90253926B200741F33 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5257B3C0253D184A00EE7DCE /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5257B3C1253D189700EE7DCE /* NetworkManager.swift */,
+				5257B3C5253D1D4700EE7DCE /* PostData.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		5257B3C825410EED00EE7DCE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5257B3C925410F2600EE7DCE /* DetailView.swift */,
+				5216AE8B253926AD00741F33 /* ContentView.swift */,
+				5257B3CD25411E8500EE7DCE /* WebView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +166,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5257B3C2253D189800EE7DCE /* NetworkManager.swift in Sources */,
+				5257B3C6253D1D4700EE7DCE /* PostData.swift in Sources */,
 				5216AE8C253926AD00741F33 /* ContentView.swift in Sources */,
+				5257B3CE25411E8500EE7DCE /* WebView.swift in Sources */,
+				5257B3CA25410F2600EE7DCE /* DetailView.swift in Sources */,
 				5216AE8A253926AD00741F33 /* hackerNewsAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
